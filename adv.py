@@ -1,6 +1,7 @@
 from room import Room
 from player import Player
 from world import World
+from util import Queue, Stack
 
 import random
 from ast import literal_eval
@@ -27,7 +28,7 @@ player = Player(world.starting_room)
 
 # Fill this out with directions to walk
 # traversal_path = ['n', 'n']
-traversal_path = []
+traversal_path = ['n', 'e', 's', 'w']
 
 
 
